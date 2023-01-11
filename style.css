@@ -3,12 +3,14 @@
 }
 body {
     display: flex;
+    flex-direction: column;
     box-sizing: border-box;
     margin: 0px;
     height: 100vh;
     align-items: center;
     justify-content: center;
     background-color: lavender;
+    gap: 30px;
 }
 
 .score {
@@ -39,3 +41,20 @@ body {
     text-align: center;
 }
 
+.peek-box {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 0 5px rgba(0,0,0,0.5);
+    padding: 15px;
+}
+
+.show {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.peeks {
+    text-align: right;
+}
