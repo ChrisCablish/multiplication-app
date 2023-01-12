@@ -35,3 +35,15 @@ formEl.addEventListener('submit', ()=>{
 const updateScoreDisplay = ()=> {
     sessionStorage.setItem('score', JSON.stringify(score));
 }
+
+/*peek section*/
+
+function showAndHide() {
+    const x = document.getElementById('answer');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+

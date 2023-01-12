@@ -41,6 +41,8 @@ body {
     text-align: center;
 }
 
+/*peek section*/
+
 .peek-box {
     background-color: white;
     display: flex;
@@ -58,3 +60,15 @@ body {
 .peeks {
     text-align: right;
 }
+
+.answer {
+    width: 100%;
+    background-color: black;
+    height: 40px;
+    
+}
+
+.hiddenButton {
+    display: none;
+}
+
